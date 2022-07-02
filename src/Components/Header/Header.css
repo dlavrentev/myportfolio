@@ -38,3 +38,16 @@ header {
     height: 2rem;
     background-color: var(--color-primary);
 }
+
+/* ======================= HEADER SOCIALS ============================ */
+
+
+.me {
+    background: var(--color-primary);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    transform: scale(1.3);
+}
+
