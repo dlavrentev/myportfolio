@@ -18,6 +18,8 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
+    --transition: all 400ms ease;
+
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-ms: 90%;
@@ -74,5 +76,27 @@ section > h2 {
 }
 
 a {
-    
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
 }
