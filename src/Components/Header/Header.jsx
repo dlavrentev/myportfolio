@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA';
-imoo
+import Profile from './../../Assets/profilepicture1.PNG'
 
 const Header = () => {
   return (
@@ -11,9 +11,12 @@ const Header = () => {
         <h1>Dimitri</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <CTA />
+
         <div className="me">
-          <img src="" alt="" />
+          <img src={Profile} alt="profile" />
         </div>
+        
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
