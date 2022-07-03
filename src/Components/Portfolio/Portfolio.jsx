@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import IMG from "./../../Assets/uistock.png";
 
 const Portfolio = () => {
   return (
@@ -10,14 +11,106 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image"></div>
-            <h3>This is a portfolio item title</h3>
-            <a href="https://github.com" className="btn" target='_blank'>
+          <img src={IMG} alt="project" />
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
               Github
             </a>
-            <a href="https://github.com" className="btn btn-primary" target='_blank'>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
-          </article>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG} alt="project" />
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG} alt="project" />
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG} alt="project" />
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG} alt="project" />
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image"></div>
+          <img src={IMG} alt="project" />
+          <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com" className="btn" target="_blank">
+              Github
+            </a>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
