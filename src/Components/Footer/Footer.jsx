@@ -15,22 +15,19 @@ const Footer = () => {
           <a href="#"></a>
         </li>
         <li>
-          <a href="#about"></a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experience"></a>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services"></a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#portfolio"></a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials"></a>
-        </li>
-        <li>
-          <a href="#contact"></a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
@@ -47,7 +44,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>Dimitri Lavrentev</small>
+        <small>2022</small>
       </div>
     </footer>
   );
