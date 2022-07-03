@@ -3,8 +3,32 @@ import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsTwitter } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_3xppuen",
+      "template_s719gaw",
+      form.current,
+      "jCUBUjvdJw10KB1iv"
+    );
+
+    e.target.reset().then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -44,16 +68,21 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTION  */}
-        <form action="">
-          <input type="text" name="name" placeholde="Your Full Name" required />
-          <input type="email" name="email" placeholde="Your Email" required />
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
             rows="7"
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" value="Send" className="btn btn-primary">
             Send Message
           </button>
         </form>
