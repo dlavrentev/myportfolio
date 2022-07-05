@@ -22,26 +22,23 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years of experience</small>
+              <h5>Graduated</h5>
+              <small>@ mimo_dev</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Teamwork</h5>
+              <small>build on team projects</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-            obcaecati provident, totam aperiam asperiores libero nam
-            exercitationem ab doloremque alias dolor consequuntur fugiat quae
-            tenetur veniam deleniti voluptates vitae sunt!
+            I'm Dimitri Lavrentev and have a mechanical, industrial profession background. Finding solutions was and is my daily drive. I like to work in a team and creating things. I'm a very concentrated, powerful and collaborative employee. I would really love to dive into the programming world, as a frontend developer!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

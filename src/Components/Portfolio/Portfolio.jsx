@@ -1,23 +1,32 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG from "./../../Assets/uistock.png";
-import IMG2 from "./../../Assets/uistock2.webp";
-import IMG3 from "./../../Assets/uistock3.webp";
+import IMG from "./../../Assets/designandfly.png";
+import IMG2 from "./../../Assets/coffeebeanpage.png"
+import IMG3 from "./../../Assets/infinityscroll.png"
+import IMG4 from "./../../Assets/interactiverating.png"
+import IMG5 from "./../../Assets/pictureinpicture.png"
+import IMG6 from "./../../Assets/quotegenerator.png"
+import IMG7 from "./../../Assets/signupform.png"
+import IMG8 from "./../../Assets/splash.png"
+import IMG9 from "./../../Assets/squarecube.png"
+import IMG10 from "./../../Assets/ultimateski.png"
+import IMG11 from "./../../Assets/weatherapi.png"
+
 
 const data = [
   {
     id: 1,
     image: IMG,
-    title: "Stock Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Design and Fly! - HTML, CSS, JavaScript, Quote-API",
+    github: "https://github.com/dlavrentev/design-and-fly",
+    demo: "https://designandfly.netlify.app/index.html",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Stock Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "The Bean Machine - HTML, CSS",
+    github: "https://github.com/dlavrentev/thebeanmachine",
+    demo: "https://the-bean-machine.netlify.app",
   },
   {
     id: 3,
@@ -28,21 +37,56 @@ const data = [
   },
   {
     id: 4,
-    image: IMG2,
+    image: IMG4,
     title: "Stock Dashboard & Financial Visualization",
     github: "https://github.com",
     demo: "https://github.com",
   },
   {
     id: 5,
-    image: IMG3,
+    image: IMG5,
     title: "Stock Dashboard & Financial Visualization",
     github: "https://github.com",
     demo: "https://github.com",
   },
   {
     id: 6,
-    image: IMG,
+    image: IMG6,
+    title: "Stock Dashboard & Financial Visualization",
+    github: "https://github.com",
+    demo: "https://github.com",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "Stock Dashboard & Financial Visualization",
+    github: "https://github.com",
+    demo: "https://github.com",
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "Stock Dashboard & Financial Visualization",
+    github: "https://github.com",
+    demo: "https://github.com",
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "Stock Dashboard & Financial Visualization",
+    github: "https://github.com",
+    demo: "https://github.com",
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: "Stock Dashboard & Financial Visualization",
+    github: "https://github.com",
+    demo: "https://github.com",
+  },
+  {
+    id: 11,
+    image: IMG11,
     title: "Stock Dashboard & Financial Visualization",
     github: "https://github.com",
     demo: "https://github.com",

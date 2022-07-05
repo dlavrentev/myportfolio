@@ -1,5 +1,6 @@
 {
   "name": "ultimate-quartet",
+  "homepage": "https://dlavrentev.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
