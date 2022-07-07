@@ -60,8 +60,8 @@ const data = [
     id: 7,
     image: IMG7,
     title: "Sign Up Form - HTML, CSS",
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "https://github.com/dlavrentev/sign-up-form",
+    demo: "https://sign-up-form-dl.netlify.app",
   },
   {
     id: 8,
