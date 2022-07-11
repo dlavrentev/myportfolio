@@ -31,8 +31,8 @@ const Services = () => {
               <p>Prioritizing development effort</p>
             </li>
             <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet conset elit.</p>
+              {/* <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet conset elit.</p> */}
             </li>
           </ul>
         </article>
