@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub, FaCodepen } from "react-icons/fa";
+import { FaGithub, FaCode } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">mimo_dev</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -32,14 +32,14 @@ const Footer = () => {
       </ul>
 
       <div className="footer__connecting">
-      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/dimitri-lavrentev-2a9bb8233" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank" rel="noreferrer">
+      <a href="https://github.com/dlavrentev" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
-      <a href="https://codepen.com" target="_blank" rel="noreferrer">
-        <FaCodepen />
+      <a href="https://www.codewars.com/users/dlavrentev" target="_blank" rel="noreferrer">
+        <FaCode />
       </a>
       </div>
 

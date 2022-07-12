@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub, FaCodepen } from "react-icons/fa";
+import { FaGithub, FaCode } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -11,8 +11,8 @@ const HeaderSocials = () => {
       <a href="https://github.com/dlavrentev" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
-      <a href="https://codepen.io/dlavrentev" target="_blank" rel="noreferrer">
-        <FaCodepen />
+      <a href="https://www.codewars.com/users/dlavrentev" target="_blank" rel="noreferrer">
+        <FaCode />
       </a>
     </div>
   );
