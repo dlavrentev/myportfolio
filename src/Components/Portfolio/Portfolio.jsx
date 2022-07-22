@@ -11,7 +11,7 @@ import IMG8 from "./../../Assets/splash.png"
 import IMG9 from "./../../Assets/squarecube.png"
 import IMG10 from "./../../Assets/ultimateski.png"
 import IMG11 from "./../../Assets/weatherapi.png"
-
+import IMG12 from "./../../Assets/jokebot.png"
 
 const data = [
   {
@@ -91,6 +91,14 @@ const data = [
     github: "https://github.com/dlavrentev/ajax",
     demo: "https://weather-api-dl.netlify.app",
   },
+  {
+    id: 12,
+    image: IMG12,
+    title: "Audio and Joke API-Test - HTML, CSS, JS, API",
+    github: "https://github.com/dlavrentev/jokebot",
+    demo: "https://jokebot.netlify.app",
+  },
+
 ];
 
 const Portfolio = () => {
