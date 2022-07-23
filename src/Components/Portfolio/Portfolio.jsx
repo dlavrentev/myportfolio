@@ -9,7 +9,7 @@ import IMG6 from "./../../Assets/pictureinpicture.png"
 import IMG7 from "./../../Assets/quotegenerator.png"
 import IMG8 from "./../../Assets/signupform.png"
 import IMG9 from "./../../Assets/splash.png"
-import IMG10 from "./../../Assets/squarecube.png"
+import IMG10 from "./../../Assets/darklight.png"
 import IMG11 from "./../../Assets/ultimateski.png"
 import IMG12 from "./../../Assets/weatherapi.png"
 import IMG13 from "./../../Assets/jokebot.png"
@@ -81,9 +81,9 @@ const data = [
   {
     id: 10,
     image: IMG10,
-    title: "Square Cube - HTML, CSS, JavaScript",
-    github: "https://github.com/dlavrentev/square-and-cube",
-    demo: "https://square-and-cube-dl.netlify.app",
+    title: "Dark-Light-Website - HTML, CSS, JavaScript",
+    github: "https://github.com/dlavrentev/light-dark-mode",
+    demo: "https://dark-light-mode-dl.netlify.app/",
   },
   {
     id: 11,
