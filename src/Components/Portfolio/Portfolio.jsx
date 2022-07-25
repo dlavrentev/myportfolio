@@ -2,7 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "./../../Assets/travel-diaries.png";
 import IMG2 from "./../../Assets/designandfly.png";
-import IMG3 from "./../../Assets/coffeebeanpage.png"
+import IMG3 from "./../../Assets/navigation-menu.png"
 import IMG4 from "./../../Assets/infinityscroll.png"
 import IMG5 from "./../../Assets/interactiverating.png"
 import IMG6 from "./../../Assets/pictureinpicture.png"
@@ -32,9 +32,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "The Bean Machine - HTML, CSS",
-    github: "https://github.com/dlavrentev/thebeanmachine",
-    demo: "https://the-bean-machine.netlify.app",
+    title: "Navigation-Menu - HTML, CSS, JavaScript",
+    github: "https://github.com/dlavrentev/navigation-nation",
+    demo: "https://navigation-menu-dl.netlify.app",
   },
   {
     id: 4,
