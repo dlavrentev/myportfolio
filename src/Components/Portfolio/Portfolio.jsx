@@ -5,12 +5,11 @@ import IMG2 from "./../../Assets/designandfly.png";
 import IMG3 from "./../../Assets/navigation-menu.png"
 import IMG4 from "./../../Assets/infinityscroll.png"
 import IMG5 from "./../../Assets/interactiverating.png"
-import IMG6 from "./../../Assets/pictureinpicture.png"
 import IMG7 from "./../../Assets/quotegenerator.png"
 import IMG8 from "./../../Assets/signupform.png"
 import IMG9 from "./../../Assets/splash.png"
 import IMG10 from "./../../Assets/darklight.png"
-import IMG11 from "./../../Assets/ultimateski.png"
+import IMG11 from "./../../Assets/music-player.png"
 import IMG12 from "./../../Assets/weatherapi.png"
 import IMG13 from "./../../Assets/jokebot.png"
 
@@ -37,6 +36,13 @@ const data = [
     demo: "https://navigation-menu-dl.netlify.app",
   },
   {
+    id: 11,
+    image: IMG11,
+    title: "Music-Player - HTML, CSS, JavaScript",
+    github: "https://github.com/dlavrentev/music-player",
+    demo: "https://music-player-dl.netlify.app/",
+  },
+  {
     id: 4,
     image: IMG4,
     title: "Infinity Scroll - HTML, CSS, JavaScript, API",
@@ -49,13 +55,6 @@ const data = [
     title: "Interactive Rating - HTML, CSS, JavaScript",
     github: "https://github.com/dlavrentev/interactive-rating-component-main",
     demo: "https://interactive-rating-component-dl.netlify.app/",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Picture in Picture - HTML, CSS, JavaScript, API",
-    github: "https://github.com/dlavrentev/pictureinpicture",
-    demo: "https://picture-in-picture-dl.netlify.app/",
   },
   {
     id: 7,
@@ -84,13 +83,6 @@ const data = [
     title: "Dark-Light-Website - HTML, CSS, JavaScript",
     github: "https://github.com/dlavrentev/light-dark-mode",
     demo: "https://dark-light-mode-dl.netlify.app/",
-  },
-  {
-    id: 11,
-    image: IMG11,
-    title: "Ultimate Ski Adventure - HTML, CSS",
-    github: "https://github.com/dlavrentev/ultimate-ski-adventure",
-    demo: "https://ultimate-ski-adventure.netlify.app",
   },
   {
     id: 12,
