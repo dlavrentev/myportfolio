@@ -32,15 +32,27 @@ const Footer = () => {
       </ul>
 
       <div className="footer__connecting">
-      <a href="https://www.linkedin.com/in/dimitri-lavrentev-2a9bb8233" target="_blank" rel="noreferrer">
-        <BsLinkedin />
-      </a>
-      <a href="https://github.com/dlavrentev" target="_blank" rel="noreferrer">
-        <FaGithub />
-      </a>
-      <a href="https://www.codewars.com/users/dlavrentev" target="_blank" rel="noreferrer">
-        <FaCode />
-      </a>
+        <a
+          href="https://www.linkedin.com/in/dimitri-lavrentev-2a9bb8233"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsLinkedin />
+        </a>
+        <a
+          href="https://github.com/dlavrentev"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.codewars.com/users/dlavrentev"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaCode />
+        </a>
       </div>
 
       <div className="footer__copyright">
