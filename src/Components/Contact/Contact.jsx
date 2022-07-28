@@ -40,7 +40,11 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>email@dlavrentev.de</h5>
-            <a href="mailto:emailv@dlavrentev.de" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:emailv@dlavrentev.de"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -50,7 +54,8 @@ const Contact = () => {
             <h5>dlavren_</h5>
             <a
               href="https://twitter.com/messages/compose?recipient_id=1449275418448629760"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
@@ -60,8 +65,9 @@ const Contact = () => {
             <h4>Whatsapp</h4>
             <h5>+49 * * * * * * * *</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=4901756569122" 
-              target="_blank" rel="noreferrer"
+              href="https://api.whatsapp.com/send?phone=4901756569122"
+              target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
