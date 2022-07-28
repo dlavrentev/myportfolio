@@ -7,7 +7,7 @@ import IMG4 from "./../../Assets/infinityscroll.png"
 import IMG5 from "./../../Assets/interactiverating.png"
 import IMG7 from "./../../Assets/quotegenerator.png"
 import IMG8 from "./../../Assets/signupform.png"
-import IMG9 from "./../../Assets/splash.png"
+import IMG9 from "./../../Assets/spock-game.png"
 import IMG10 from "./../../Assets/darklight.png"
 import IMG11 from "./../../Assets/music-player.png"
 import IMG12 from "./../../Assets/weatherapi.png"
@@ -73,9 +73,9 @@ const data = [
   {
     id: 9,
     image: IMG9,
-    title: "Splash - HTML, CSS, Figma",
-    github: "https://github.com/dlavrentev/splash-page",
-    demo: "https://splash-page-dl.netlify.app",
+    title: "Spock Game - HTML, CSS, JavaScript",
+    github: "https://github.com/dlavrentev/spock-game",
+    demo: "https://spock-game-dl.netlify.app/",
   },
   {
     id: 10,
