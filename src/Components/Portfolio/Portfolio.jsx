@@ -2,16 +2,16 @@ import React from "react";
 import "./Portfolio.css";
 import IMG1 from "./../../Assets/travel-diaries.png";
 import IMG2 from "./../../Assets/designandfly.png";
-import IMG3 from "./../../Assets/navigation-menu.png"
-import IMG4 from "./../../Assets/infinityscroll.png"
-import IMG5 from "./../../Assets/interactiverating.png"
-import IMG7 from "./../../Assets/quotegenerator.png"
-import IMG8 from "./../../Assets/signupform.png"
-import IMG9 from "./../../Assets/spock-game.png"
-import IMG10 from "./../../Assets/darklight.png"
-import IMG11 from "./../../Assets/music-player.png"
-import IMG12 from "./../../Assets/weatherapi.png"
-import IMG13 from "./../../Assets/jokebot.png"
+import IMG3 from "./../../Assets/navigation-menu.png";
+import IMG4 from "./../../Assets/infinityscroll.png";
+import IMG5 from "./../../Assets/interactiverating.png";
+import IMG7 from "./../../Assets/quotegenerator.png";
+import IMG8 from "./../../Assets/signupform.png";
+import IMG9 from "./../../Assets/spock-game.png";
+import IMG10 from "./../../Assets/darklight.png";
+import IMG11 from "./../../Assets/music-player.png";
+import IMG12 from "./../../Assets/weatherapi.png";
+import IMG13 from "./../../Assets/jokebot.png";
 
 const data = [
   {
@@ -98,7 +98,6 @@ const data = [
     github: "https://github.com/dlavrentev/jokebot",
     demo: "https://jokebot.netlify.app",
   },
-
 ];
 
 const Portfolio = () => {
@@ -117,10 +116,20 @@ const Portfolio = () => {
 
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank" rel="noreferrer">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>
