@@ -38,7 +38,11 @@ const About = () => {
           </div>
 
           <p>
-            I'm Dimitri Lavrentev and have a mechanical, industrial profession background. Finding solutions was and is my daily drive. I like to work in a team and creating things. I'm a very concentrated, powerful and collaborative employee. I would really love to dive into the coding world, as a frontend developer!
+            I'm Dimitri Lavrentev and have a mechanical, industrial profession
+            background. Finding solutions was and is my daily drive. I like to
+            work in a team and creating things. I'm a very concentrated,
+            powerful and collaborative employee. I would really love to dive
+            into the coding world, as a frontend developer!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
